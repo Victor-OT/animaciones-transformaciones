@@ -1,0 +1,27 @@
+.container {
+    width: 500px;
+    height: 100px;
+    background: papayawhip;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container
+
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background: salmon;
+}
+
+.box2 {
+    background: darksalmon;
+}
+
+.box3 {
+    background: red;
+}
