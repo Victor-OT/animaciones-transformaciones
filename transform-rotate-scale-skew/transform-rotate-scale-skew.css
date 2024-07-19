@@ -1,0 +1,36 @@
+.rotate {
+    width: 100px;
+    height: 80px;
+    border-radius: 5%;
+    background: pink;
+    margin-bottom: 10px;
+    transform-origin: bottom right;
+}
+
+.rotate:hover {
+    transform: rotate(20deg);
+}
+
+.scale {
+    width: 100px;
+    height: 80px;
+    border-radius: 5%;
+    background: pink;
+    margin-bottom: 10px;
+}
+
+.scale:hover {
+    transform: scale(1.05);
+}
+
+.skew {
+    width: 100px;
+    height: 80px;
+    border-radius: 5%;
+    background: pink;
+    margin-bottom: 10px;
+}
+
+.skew:hover {
+    transform: skew(-20deg, -10deg);
+}
