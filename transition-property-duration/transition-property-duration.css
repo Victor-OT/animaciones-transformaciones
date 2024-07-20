@@ -4,9 +4,13 @@
     background: papayawhip;
     display: flex;
     justify-content: space-between;
+    margin: 100px;
 }
 
-.container
+.container:hover .box {
+    transform: scale(1.2);
+    transform: rotate(45deg);
+}
 
 
 .box {
@@ -16,12 +20,15 @@
 
 .box1 {
     background: salmon;
+    transition: transform 0.3s;
 }
 
 .box2 {
     background: darksalmon;
+    transition: transform 0.6s;
 }
 
 .box3 {
     background: red;
+    transition: transform 0.9s;
 }
